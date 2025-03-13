@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web Assistant</title>
+    <link rel="stylesheet" href="sidePanel.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Web Assistant</h2>
+        </div>
+        <div class="actions">
+            <button id="summarizeBtn">Summarize</button>
+            <button id="suggestBtn">Suggest</button>
+            <button id="askQuestionBtn">Ask a Question</button>
+        </div>
+        <div class="notes">
+            <h3>Web Notes</h3>
+            <textarea id="notes" placeholder="Take Notes Here..."></textarea>
+            <button id="saveNotesBtn">Save Notes</button>
+        </div>
+
+        <!-- New Question Section -->
+        <div id="questionSection" style="display: none;">
+            <input type="text" id="questionInput" placeholder="Type your question here..." />
+            <button id="submitQuestionBtn">Submit Question</button>
+        </div>
+
+        <div id="results"></div>
+    </div>
+
+    <script src="sidePanel.js"></script>
+</body>
+</html>
