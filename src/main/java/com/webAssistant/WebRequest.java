@@ -6,5 +6,5 @@ import lombok.Data;
 public class WebRequest {
     private String content;
     private String operation;
-    private String question; // Added question field for clarification
+    private String question; 
 }
